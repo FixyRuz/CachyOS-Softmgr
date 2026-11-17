@@ -1,0 +1,3 @@
+Versi terbaru
+CachyOS Softmgr 4.1.0
+Baseline: Improve + Rebuild

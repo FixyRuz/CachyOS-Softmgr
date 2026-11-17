@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=CachyOS Softmgr
+GenericName=Pengelola Perangkat Lunak
+Comment=Kelola aplikasi Pacman, AUR, dan Flatpak di CachyOS
+Exec=cachyos-softmgr
+Icon=cachyos-softmgr
+Terminal=false
+Categories=System;PackageManager;Settings;
+Keywords=cachyos;paket;aplikasi;pacman;aur;flatpak;pembaruan;copot;
+StartupNotify=true
+StartupWMClass=CachyOS-Softmgr

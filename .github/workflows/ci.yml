@@ -1,0 +1,30 @@
+name: Validasi
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil source
+        uses: actions/checkout@v7
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Tes unit backend
+        run: python -m unittest discover -s tests -v
+
+      - name: Periksa sintaks script shell
+        run: bash -n install.sh uninstall.sh
+
+      - name: Kompilasi source Python
+        run: python -m compileall -q main.py main_window.py backend.py workers.py theme.py icons.py disk_report.py

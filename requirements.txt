@@ -1,0 +1,3 @@
+# CachyOS/Arch users should install PyQt6 from the distribution package.
+# This file is for isolated Python environments.
+PyQt6>=6.4.0
