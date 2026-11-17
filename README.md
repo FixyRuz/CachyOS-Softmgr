@@ -2,7 +2,7 @@
 
 **Versi 4.1.0 · Versi terbaru**
 
-Aplikasi desktop PyQt6 untuk melihat dan mengelola paket Pacman, paket AUR/foreign melalui `paru` atau `yay`, serta aplikasi Flatpak. Proyek ini melanjutkan fondasi v2 dan v3; versi lama tetap berada di foldernya masing-masing.
+Aplikasi desktop PyQt6 untuk melihat dan mengelola paket Pacman, paket AUR/foreign melalui `paru` atau `yay`, serta aplikasi Flatpak. Proyek ini melanjutkan fondasi v2 dan v3; versi lama tetap berada di folder lokal dan tidak di publish.
 
 ## Fitur
 
